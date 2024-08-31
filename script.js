@@ -27,6 +27,7 @@ document.querySelector(".two").addEventListener("mouseenter", (event) => {
 
 document.querySelector(".one").addEventListener("click",()=>{
     alert(toSay);
+    window.close();
 });
 
 var toSay = "Yep. I know.";
