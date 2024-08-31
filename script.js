@@ -41,6 +41,5 @@ if(namex.toLowerCase() === "pelican" || namex.toLowerCase() === "haans" || namex
     alert("Welcome bro.");
     document.querySelector(".question").textContent = "Now tell me , are you chutiya ?";
 } else {
-    document.body.innerHTML = "";
-    alert("Sorry, You are not authorized.");
+    alert("welcome");
 }
