@@ -33,7 +33,7 @@ document.querySelector(".one").addEventListener("click",()=>{
 var toSay = "Yep. I know.";
 
 var namex = prompt("Enter your name ");
-if(namex.toLowerCase() === "pelican" || namex.toLowerCase() === "haans" || namex.toLowerCase().slice(0,45) === "sanch")
+if(namex.toLowerCase() === "pelican" || namex.toLowerCase() === "haans" || namex.toLowerCase().slice(0,5) === "sanch")
 {
     alert("Heh.");
     document.querySelector(".question").textContent = "Do you love me ?";
